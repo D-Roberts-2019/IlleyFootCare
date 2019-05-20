@@ -1,0 +1,194 @@
+body {
+	margin: auto 0;
+	font-family: Arial;
+}
+
+.zoneimg {
+    background-color:#ffb69d;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+	
+	margin: 0;
+}
+
+.main-nav {
+	display: flex;
+	list-style: none;
+	font-size: 1em;
+	margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.main-nav {
+		font-size: 0.5em;
+		padding: 0;
+	}
+}
+
+ul {
+
+}
+
+li {
+	padding: 20px;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.black {
+	background-image: linear-gradient(to bottom right, black, grey);
+}
+
+.push {
+	margin-left: auto;
+
+}
+
+/*COVER*/
+
+.container{
+	background-image: url("./img/bgimg.jpg");
+	background-size: cover;
+	background-position: center;
+    height: 100vh;
+}
+
+h1 {
+	text-align: right;
+	padding-top: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 20px;
+	margin-left: 30%;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+ p {
+ 	
+ 	text-align: right;
+ 	color: white;
+ 	font-size: 20px;
+ 	padding-top: 0px;
+    margin-right: 20px;
+    margin-left: 33%;
+ }
+
+ @media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 30px;
+	}
+	p{
+		font-size: 15px;
+	}
+	.serv h2 ul{
+		font-size: 1.5em;
+		padding-left: 0;
+		text-align: left;
+
+	}
+	
+	.vicelist>ul{
+		padding: 0px;
+	}
+}
+
+/*About*/
+.cover {
+	
+}
+h2 {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.paras {
+	color: black;
+	text-align: center;
+	margin: auto;
+}
+
+/*Grid*/
+
+.Grid {
+	background-color: white;
+	background-image: linear-gradient(to bottom-right, #9dfcff; white);
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.box > img {
+	width: 100%;
+}
+
+.box {
+	background-color: #ffb69d;
+	padding: 10px;
+	margin: 20px;
+}
+
+/*SERVICES*/
+
+.serv {
+	display: grid;
+	background-color: #9dfcff;
+	background-image: url("./img/serviceimg.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 0px;
+	padding: 50px;
+}
+
+.vicelist>ul {
+	list-style: none;
+	padding: 60px;
+	padding-left: 100px;
+	font-size: 2em;
+	margin-left: 0%;
+}
+
+.serv>h2 {
+	text-align: left;
+	padding-left: 100px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+/*FOOTER*/
+
+footer {
+	
+	color: white;
+	
+}
+
+.zonefoot {
+    background-color:#ffb69d;
+    font-size:1.0em;
+    border-radius:4px;
+    border:1px solid #bbb;
+}
+
